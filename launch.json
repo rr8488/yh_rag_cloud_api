@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: FastAPI Dev Server",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/run_dev.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "APP_PORT": "8088"
+            }
+        }
+    ]
+}
